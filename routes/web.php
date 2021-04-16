@@ -19,3 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/new', [TestController::class, 'controllerMethod']);
+
+Route::any('{slug}', function(){
+    return view('welcome');
+});

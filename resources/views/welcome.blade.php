@@ -5,9 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Covid-platform</title>
+
+        <link rel="stylesheet" href="/css/all.css">
   
     </head>
-    <body class="antialiased">
-      <h1>body</h1>        
+    <body>
+        <div id="app">
+            <mainapp></mainapp>
+        </div>        
     </body>
+    <script src="{{mix('/js/app.js')}}"></script>
 </html>
